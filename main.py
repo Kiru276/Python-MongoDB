@@ -1,15 +1,27 @@
 from pymongo import MongoClient
 import json
+import os
 from bson import json_util  # Importa json_util para manejar ObjectId
 
 # Conectarse a la base de datos local de MongoDB
+# Obtener la ruta absoluta del archivo database.json
+file_path = os.path.abspath('database.json')
+
+# Conectar a la base de datos local de MongoDB
 client = MongoClient('mongodb://localhost:27017/')
 
 # Seleccionar una base de datos (si no existe, se creará automáticamente)
 db = client['mydatabase']
 
-# Crear una colección llamada 'mycollection'
+# Crear una colección llamada 'tareas'
 collection = db['tareas']
+
+# Leer el archivo JSON y cargar los documentos en la colección
+with open(file_path, 'r') as file:
+    data = json.load(file)
+    collection.insert_many(data)
+
+print('----Datos cargados exitosamente desde database.json----')
 
 # Insertar un documento en la colección
 def Insertar ():
