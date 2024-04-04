@@ -1,9 +1,9 @@
 # Usando base datos con driver Python-MongoDB
 
 # Requisitos
-1.Tener una version de python 3.10 en adelante instalada
-2.Instalar pymongo: "sudo pip install pymongo"
-3.Instalar start mongod: "sudo systemctl start mongod"
+1. Tener una version de python 3.10 en adelante instalada
+2. Instalar pymongo: "sudo pip install pymongo"
+3. Instalar start mongod: "sudo systemctl start mongod"
 
 
 # Pasos para su ejecucion
