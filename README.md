@@ -2,8 +2,9 @@
 
 # Requisitos
 1. Tener una version de python 3.10 en adelante instalada
-2. Instalar pymongo: "sudo pip install pymongo"
-3. Instalar start mongod: "sudo systemctl start mongod"
+2. Instalar: "sudo apt install python3-pip"
+3. Instalar pymongo: "sudo pip install pymongo"
+4. Instalar start mongod: "sudo systemctl start mongod"
 
 
 # Pasos para su ejecucion
