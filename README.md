@@ -15,6 +15,9 @@
 4. En carpeta ejecutar comando: source active
 5. Ejecutar comando: python main.py  
 
+# Ambiente virtual
+-env python
+
 # Usos
 - Este programa tiene como objeto probar bases de datos no relacionales a través de librerías como "mongod" a través de una collection llamada "tareas"
 
