@@ -9,10 +9,11 @@
 # Pasos para su ejecucion
 
 1. Descargar codigo
-2. Instalar dependencias pip
-3. Ejecutar comando: sudo systemctl start mongod
-4. En carpeta ejecutar comando: source active
-5. Ejecutar comando: python main.py  
+2. Posicionarse en carpeta /bin
+3. Instalar dependencias pip
+4. Ejecutar comando: sudo systemctl start mongod
+5. En carpeta ejecutar comando: source active
+6. Ejecutar comando: python main.py  
 
 # Usos
 - Este programa tiene como objeto probar bases de datos no relacionales a través de librerías como "mongod" a través de una collection llamada "tareas"
