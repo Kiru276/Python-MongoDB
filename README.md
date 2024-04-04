@@ -24,5 +24,4 @@ En la base de datos se recopilan datos teoricos de diversas actividades como tar
 - Encargado: Persona que realizara la tarea
 - Fecha: Tiempo en que se deberá cumplir dicha tarea
 - Estado: En que proceso actulamente se encuentra la tarea
-
-![] (https://ibb.co/FJCf06G)
+- https://ibb.co/FJCf06G
