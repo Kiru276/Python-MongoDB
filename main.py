@@ -11,6 +11,23 @@ db = client['mydatabase']
 # Crear una colección llamada 'mycollection'
 collection = db['tareas']
 
+# Leer los datos del archivo JSON
+with open('database.json', 'r') as file:
+    data = json.load(file)
+
+# Verificar si la colección está vacía
+if collection.count_documents({}) == 0:
+    # La colección está vacía, cargar los datos del archivo JSON
+    collection.insert_many(data)
+    print('Datos cargados desde el archivo JSON.')
+else:
+    # La colección no está vacía, verificar duplicados antes de insertar
+    for document in data:
+        # Verificar si la ID del documento ya existe en la colección
+        if collection.count_documents({'_id': document['_id']}) == 0:
+            # La ID no existe en la colección, insertar el documento
+            collection.insert_one(document)
+    print('Datos cargados desde el archivo JSON sin duplicados.')
 
 # Insertar un documento en la colección
 def Insertar ():
