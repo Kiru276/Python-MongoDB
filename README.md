@@ -25,3 +25,7 @@ En la base de datos se recopilan datos teoricos de diversas actividades como tar
 - Fecha: Tiempo en que se deberá cumplir dicha tarea
 - Estado: En que proceso actulamente se encuentra la tarea
 - https://ibb.co/FJCf06G
+
+# Archivos de uso
+- main.py: contiene el codigo base de la logica de programa
+- database.json: collection de base de datos que puede ser consumida y/o importada
