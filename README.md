@@ -6,6 +6,12 @@
 3. Instalar pymongo: "sudo pip install pymongo"
 4. Instalar start mongod: "sudo systemctl start mongod"
 
+# Instalacion correcta de entorno virtual
+
+1. Instalar modulo entornos virtuales: apt install python3−venv
+2. Crear entorno virtual: python3 −m venv venv−python3
+3. Activar entorno virtual: source venv−python3/activate
+
 
 # Pasos para su ejecucion
 
@@ -15,8 +21,7 @@
 4. En carpeta ejecutar comando: source active
 5. Ejecutar comando: python main.py  
 
-# Ambiente virtual
--env python
+
 
 # Usos
 - Este programa tiene como objeto probar bases de datos no relacionales a través de librerías como "mongod" a través de una collection llamada "tareas"
