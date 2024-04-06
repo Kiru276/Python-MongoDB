@@ -8,9 +8,9 @@
 
 # Instalacion correcta de entorno virtual
 
-1. Instalar modulo entornos virtuales: apt install python3−venv
-2. Crear entorno virtual: python3 −m venv venv−python3
-3. Activar entorno virtual: source venv−python3/activate
+1. Instalar modulo entornos virtuales: "apt install python3−venv"
+2. Crear entorno virtual: "python3 −m venv venv−python3"
+3. Activar entorno virtual: "source venv−python3/activate"
 
 
 # Pasos para su ejecucion
